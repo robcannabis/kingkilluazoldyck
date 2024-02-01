@@ -36,7 +36,7 @@ client.on('ready', async () => {
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
     const change = ['https://cdn.discordapp.com/attachments/1083058673640808448/1202599320357048371/213111.gif']; //รูปใหญ่
      //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
-    const change2 = ['⏰（  ${getTime()} ）','📅（ ${moment().format('DD/MM/YYYY')} ）']; // ชื่อสลับ
+    const change2 = [' ']; // ชื่อสลับ
     const yyyt = ['꒰ Song ꒱']; // ชื่อ button1
     const ddds = ['https://www.youtube.com/watch?v=QjQliDFIsnk']; // ลิ้ง button1
 
@@ -57,7 +57,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
       .setURL('https://www.youtube.com/watch?v=yFg7_bjl2-k')
-      .setState(`${dwada}`)
+      .setState(`⏰（  ${getTime()} ） • 📅（ ${moment().format('DD/MM/YYYY')} ）`)
       .setName(`RobShop`)
       .setDetails(`⋆ 🐣  🎀  𝒱𝒶𝓁𝑒𝓃𝓉𝒾𝓃𝑒  🎀  🐣 ⋆`)
       //.setAssetsSmallImage(`${popp}`) 
